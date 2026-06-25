@@ -56,7 +56,8 @@ This project showcases my ability to detect, analyse, and document a live phishi
 ## Alert 3 True Posetive after intense investogations following phishing emails and signs of exfiltration porcedures
 
 
-
+### Result
+<img width="1445" height="433" alt="Screenshot 2026-06-25 at 11 48 43" src="https://github.com/user-attachments/assets/77882312-4997-4959-b9be-f400f5d1e161" />
 
 
 
