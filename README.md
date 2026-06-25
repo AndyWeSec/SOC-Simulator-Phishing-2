@@ -43,9 +43,8 @@ This project showcases my ability to detect, analyse, and document a live phishi
 ## Alert 2 False Posetive following investigation into process name details 
 
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 55 56" src="https://github.com/user-attachments/assets/ce9f2b47-729b-4d6f-856e-cd58f1f3fd87" />
-<img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 56 02" src="https://github.com/user-attachments/assets/535cbab0-25f7-4d1e-a80e-5da1345e0239" />
-<img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 56 14" src="https://github.com/user-attachments/assets/466f55ba-86c5-4295-a8bd-a772ba16cb48" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 56 40" src="https://github.com/user-attachments/assets/8160bdfd-924f-437e-8d71-46f7bbcc4ac6" />
+<img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 56 14" src="https://github.com/user-attachments/assets/466f55ba-86c5-4295-a8bd-a772ba16cb48" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 57 40" src="https://github.com/user-attachments/assets/12b9dddf-78b2-4537-b672-96f475c3a986" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 58 44" src="https://github.com/user-attachments/assets/cc8adfff-8098-45bf-b2fe-b045240971c3" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 59 12" src="https://github.com/user-attachments/assets/f889d56b-1be3-4753-af0d-b8646aa4f75c" />
@@ -53,8 +52,29 @@ This project showcases my ability to detect, analyse, and document a live phishi
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 01 05" src="https://github.com/user-attachments/assets/68eb68a2-9422-41a1-8c86-241b941545cd" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 01 22" src="https://github.com/user-attachments/assets/8c07b035-f966-48bd-a313-9c473d2e07a4" />
 
-## Alert 3 True Posetive after intense investogations following phishing emails and signs of exfiltration porcedures
+### an update on alerts and their severity
+<img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 06 56" src="https://github.com/user-attachments/assets/e0f25cda-95bf-4d4a-a002-b190d289fc6f" />
 
+
+## Alert 3 True Posetive after intense investogations following phishing emails and signs of exfiltration porcedures
+<img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 16 13" src="https://github.com/user-attachments/assets/9c348f0d-d299-4617-98f4-0fa296d27ad2" />
+<img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 16 28" src="https://github.com/user-attachments/assets/870a1553-d984-4f1b-8ded-da1e6debf8fe" />
+<img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 16 32" src="https://github.com/user-attachments/assets/86022be0-c2e2-4efc-97ac-ebfe91c76e44" />
+<img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 16 45" src="https://github.com/user-attachments/assets/550c2452-8ad6-43e8-a55f-631c96eabbf0" />
+<img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 17 21" src="https://github.com/user-attachments/assets/605530c3-c95f-400d-9508-7694f90e7af3" />
+<img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 17 51" src="https://github.com/user-attachments/assets/5ee166bb-6816-468d-879f-b01cadbdcec4" />
+<img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 18 24" src="https://github.com/user-attachments/assets/e934741d-dcc8-45a6-8878-53f3e5438d4d" />
+<img width="924" height="502" alt="Screenshot 2026-06-24 at 20 20 07" src="https://github.com/user-attachments/assets/00bbfbd4-86f1-42dc-b09e-807941a3860c" />
+<img width="1462" height="709" alt="Screenshot 2026-06-24 at 20 27 32" src="https://github.com/user-attachments/assets/b8ddaa22-0b3b-4546-ab68-63e51d71b8b9" />
+<img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 04 16" src="https://github.com/user-attachments/assets/3f24c63f-39df-496e-a715-e9e27aefc265" />
+<img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 04 54" src="https://github.com/user-attachments/assets/fb345fe5-30b0-415f-804e-1381a6d7527e" />
+<img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 05 02" src="https://github.com/user-attachments/assets/3b2b5bb4-b5b1-4e13-a87f-32fb51bb7266" />
+<img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 05 11" src="https://github.com/user-attachments/assets/64f1d2c9-e08a-4f54-808d-3202bac2ff4a" />
+<img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 05 44" src="https://github.com/user-attachments/assets/b4a6abd2-790a-46b6-85f7-fee62ca25540" />
+<img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 06 57" src="https://github.com/user-attachments/assets/8762b169-e3b8-487e-a855-65dfef80f8d5" />
+<img width="743" height="471" alt="Screenshot 2026-06-25 at 11 48 06" src="https://github.com/user-attachments/assets/10450fe6-575f-447f-aafe-8ec797aa1b6d" />
+<img width="743" height="433" alt="Screenshot 2026-06-25 at 11 48 18" src="https://github.com/user-attachments/assets/062221ec-4fd8-420d-905d-372e7220564e" />
+<img width="743" height="433" alt="Screenshot 2026-06-25 at 11 48 24" src="https://github.com/user-attachments/assets/a8259c70-bbdc-478a-91f8-b7fc81523682" />
 
 ### Result
 <img width="1445" height="433" alt="Screenshot 2026-06-25 at 11 48 43" src="https://github.com/user-attachments/assets/77882312-4997-4959-b9be-f400f5d1e161" />
