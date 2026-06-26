@@ -2,9 +2,9 @@
 A secondary end-to-end incident response lab simulating an enterprise phishing attack vector. Documents email header triage, malicious payload hashing, and threat intelligence lookups using VirusTotal, alongside blue-team detection engineering, log ingestion, and alert generation within Elastic SIEM.
 
 ### Tools Used
-Training Platform: TryHackMe SOC Simulator
-SIEM Platform: SPLUNK Enterprise
-Threat Intelligence: VirusTotal
+* Training Platform: TryHackMe SOC Simulator
+* SIEM Platform: SPLUNK Enterprise
+* Threat Intelligence: VirusTotal
 
 ### SOC Phishing Simulator & Incident Response Lab
 * Attack Simulation: Simulated an enterprise phishing attack vector within an isolated sandbox environment to generate realistic endpoint and network telemetry.
