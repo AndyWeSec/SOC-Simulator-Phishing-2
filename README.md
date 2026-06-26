@@ -3,7 +3,7 @@ A secondary end-to-end incident response lab simulating an enterprise phishing a
 
 ### Tools Used
 Training Platform: TryHackMe SOC Simulator
-SIEM Platform: SPLUNK
+SIEM Platform: SPLUNK Enterprise
 Threat Intelligence: VirusTotal
 
 ### SOC Phishing Simulator & Incident Response Lab
