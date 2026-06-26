@@ -29,7 +29,9 @@ This project showcases my ability to detect, analyse, and document a live phishi
 
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 36 52" src="https://github.com/user-attachments/assets/727bc848-9a75-4bb0-adc1-14a7051632ba" />
 
-## Alert 1 True Posetive following SPLUNK (SEIM) and VirusTotal investigations
+## Alert 1: Inbound Phishing Triage
+
+### Initial Alert: Alert triggers in the queue for a "Suspicious email from external domain". The log captures an inbound message from eileen@trendymillionaires.me targeting support@trythatme.me with a clear social engineering lure regarding a fake "billionaire Relative" inheritance.
 
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 39 15" src="https://github.com/user-attachments/assets/7d990be6-d314-420e-acb3-6d01188d2b33" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 41 05" src="https://github.com/user-attachments/assets/0a469a23-0ad9-4ffc-bb6d-5b35cfb93be2" />
@@ -37,8 +39,17 @@ This project showcases my ability to detect, analyse, and document a live phishi
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 42 05" src="https://github.com/user-attachments/assets/ce2281d7-f8f9-400a-b780-49655e0127db" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 42 58" src="https://github.com/user-attachments/assets/8ed9a5e1-e61f-463b-92cb-9ac8a9c60acd" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 43 07" src="https://github.com/user-attachments/assets/49031760-76ba-45f2-9259-945c12b7d673" />
+
+### Log Lanalysis: A deep-dive query insode SPLUNK Enterprise reveals broader campaign activity hitting the mail servers. Splunk catches a second concurrent phishing email variation from lucie@trendymillionaire.me pushing a fake "certified hat designer" job offer to a different employee.
+
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 46 08" src="https://github.com/user-attachments/assets/d0f1c5f2-fd82-427c-a09f-a4f11ba81c8f" />
+
+### Threat Intelligence: The senders root domain (trendymillionaires.me) is pivoted to VirusTotal. While it returns a 0/91 clean vendor reputation score due to the domain being newly registered, the suspicious top level domain and explicit financial/credentials lure validate malicious intent.
+
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 51 40" src="https://github.com/user-attachments/assets/77cb8707-2c57-4960-b3a5-f8c843e30c3e" />
+
+### Disposition and Resolution: Classified as a True Positive. The ticket is reso,lved by escalating the incident the initiate tenant-wide blocking of the sender domain cluster and recommending a block on the external sender address.
+
 
 ## Alert 2 False Positive following investigation into process name details 
 
