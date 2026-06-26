@@ -65,7 +65,7 @@ This project showcases my ability to detect, analyse, and document a live phishi
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 59 56" src="https://github.com/user-attachments/assets/a82f2302-89f3-4580-91ca-4fe9b9360a21" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 01 05" src="https://github.com/user-attachments/assets/68eb68a2-9422-41a1-8c86-241b941545cd" />
 
-### Threat INtelligence: Documentation from official Microsoft resources verifies that rdpclip.exe (remote Desktop Clipboard Monitor) is legitimate native Windows binary located in C:\windows\system32. It is tasked with managing clipboard translation and format synchrinization during active REmote Deskyop (RDP) sessions.
+### Threat Intelligence: Documentation from official Microsoft resources verifies that rdpclip.exe (remote Desktop Clipboard Monitor) is legitimate native Windows binary located in C:\windows\system32. It is tasked with managing clipboard translation and format synchrinization during active REmote Deskyop (RDP) sessions.
 
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 01 22" src="https://github.com/user-attachments/assets/8c07b035-f966-48bd-a313-9c473d2e07a4" />
 
