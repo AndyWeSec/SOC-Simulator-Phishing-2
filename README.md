@@ -40,7 +40,7 @@ This project showcases my ability to detect, analyse, and document a live phishi
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 42 58" src="https://github.com/user-attachments/assets/8ed9a5e1-e61f-463b-92cb-9ac8a9c60acd" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 43 07" src="https://github.com/user-attachments/assets/49031760-76ba-45f2-9259-945c12b7d673" />
 
-### Log Lanalysis: A deep-dive query insode SPLUNK Enterprise reveals broader campaign activity hitting the mail servers. Splunk catches a second concurrent phishing email variation from lucie@trendymillionaire.me pushing a fake "certified hat designer" job offer to a different employee.
+### Log Lanalysis: A deep-dive query inside SPLUNK Enterprise reveals broader campaign activity hitting the mail servers. Splunk catches a second concurrent phishing email variation from lucie@trendymillionaire.me pushing a fake "certified hat designer" job offer to a different employee.
 
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 46 08" src="https://github.com/user-attachments/assets/d0f1c5f2-fd82-427c-a09f-a4f11ba81c8f" />
 
