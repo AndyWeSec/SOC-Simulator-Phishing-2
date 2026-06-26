@@ -1,5 +1,5 @@
 # SOC-Simulator-Phishing-2
-A seconadry end-to-end incident response lab simulating an enterprise phishing attack vector. Documents email header triage, malicious payload hashing, and threat intelligence lookups using VirusTotal, alongside blue-team detection engineering, log ingestion, and alert generation within Elastic SIEM.
+A secondary end-to-end incident response lab simulating an enterprise phishing attack vector. Documents email header triage, malicious payload hashing, and threat intelligence lookups using VirusTotal, alongside blue-team detection engineering, log ingestion, and alert generation within Elastic SIEM.
 
 ### Tools Used
 Training Platform: TryHackMe SOC Simulator
@@ -9,7 +9,7 @@ Threat Intelligence: VirusTotal
 ### SOC Phishing Simulator & Incident Response Lab
 * Attack Simulation: Simulated an enterprise phishing attack vector within an isolated sandbox environment to generate realistic endpoint and network telemetry.
 * Threat Intelligence: Analysed raw email headers and extracted malicious payload hashes, leveraging VirusTotal to validate indicators of compromise (IoCs).
-* SIEM Detection Engineering: Developed custom queries and alert rules within Elastic SIEM to detect post-exploitation activity, suspicious process spawning, and unauthorized network connections.
+* SIEM Detection Engineering: Developed custom queries and alert rules within SPLUNK SIEM to detect post-exploitation activity, suspicious process spawning, and unauthorized network connections.
 * OC Analyst Workflow: Completed hands-on training via the TryHackMe SOC Simulator to master real-time queue management, alert prioritization, and threat triage.
 
 ### Gained Core Competencies: 
@@ -40,7 +40,7 @@ This project showcases my ability to detect, analyse, and document a live phishi
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 46 08" src="https://github.com/user-attachments/assets/d0f1c5f2-fd82-427c-a09f-a4f11ba81c8f" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 51 40" src="https://github.com/user-attachments/assets/77cb8707-2c57-4960-b3a5-f8c843e30c3e" />
 
-## Alert 2 False Posetive following investigation into process name details 
+## Alert 2 False Positive following investigation into process name details 
 
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 55 56" src="https://github.com/user-attachments/assets/ce9f2b47-729b-4d6f-856e-cd58f1f3fd87" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 56 40" src="https://github.com/user-attachments/assets/8160bdfd-924f-437e-8d71-46f7bbcc4ac6" />
@@ -56,7 +56,7 @@ This project showcases my ability to detect, analyse, and document a live phishi
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 06 56" src="https://github.com/user-attachments/assets/e0f25cda-95bf-4d4a-a002-b190d289fc6f" />
 
 
-## Alert 3 True Posetive after intense investogations following phishing emails and signs of exfiltration porcedures
+## Alert 3 True Positive after intense investogations following phishing emails and signs of exfiltration porcedures
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 16 13" src="https://github.com/user-attachments/assets/9c348f0d-d299-4617-98f4-0fa296d27ad2" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 16 28" src="https://github.com/user-attachments/assets/870a1553-d984-4f1b-8ded-da1e6debf8fe" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 16 32" src="https://github.com/user-attachments/assets/86022be0-c2e2-4efc-97ac-ebfe91c76e44" />
