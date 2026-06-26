@@ -51,23 +51,32 @@ This project showcases my ability to detect, analyse, and document a live phishi
 ### Disposition and Resolution: Classified as a True Positive. The ticket is reso,lved by escalating the incident the initiate tenant-wide blocking of the sender domain cluster and recommending a block on the external sender address.
 
 
-## Alert 2 False Positive following investigation into process name details 
-
+## Alert 2: Remore Desktop Clipboard Monitor
+### Initial Alert: Alert triggers a high priority warning on host win-3450 flagging a "Suspicious Parent-Child Relationship". The monitoring system logs a core system hierachy anomally involving the process execution of rdpclip.exe.
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 55 56" src="https://github.com/user-attachments/assets/ce9f2b47-729b-4d6f-856e-cd58f1f3fd87" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 56 40" src="https://github.com/user-attachments/assets/8160bdfd-924f-437e-8d71-46f7bbcc4ac6" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 56 14" src="https://github.com/user-attachments/assets/466f55ba-86c5-4295-a8bd-a772ba16cb48" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 57 40" src="https://github.com/user-attachments/assets/12b9dddf-78b2-4537-b672-96f475c3a986" />
+
+### Log Analysis: A targeted investigation of sysmon event logs within SPLUNK Enterprise is conducted to trace the execution path and command -line parameters of rdpclip.exe on host win-3450. The behaviour shows standard, benign initialization sequences, indicating no signs of binary masqerading, malicious argument injection, or memory tampering.
+
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 58 44" src="https://github.com/user-attachments/assets/cc8adfff-8098-45bf-b2fe-b045240971c3" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 59 12" src="https://github.com/user-attachments/assets/f889d56b-1be3-4753-af0d-b8646aa4f75c" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 19 59 56" src="https://github.com/user-attachments/assets/a82f2302-89f3-4580-91ca-4fe9b9360a21" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 01 05" src="https://github.com/user-attachments/assets/68eb68a2-9422-41a1-8c86-241b941545cd" />
+
+### Threat INtelligence: Documentation from official Microsoft resources verifies that rdpclip.exe (remote Desktop Clipboard Monitor) is legitimate native Windows binary located in C:\windows\system32. It is tasked with managing clipboard translation and format synchrinization during active REmote Deskyop (RDP) sessions.
+
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 01 22" src="https://github.com/user-attachments/assets/8c07b035-f966-48bd-a313-9c473d2e07a4" />
+
+### Disposition and Resolution: Classified as a False Positive. The alert was tripped by standard administration access over RDP. The ticket is documented and resolved with no further operational risk actions required.
 
 ### an update on alerts and their severity
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 06 56" src="https://github.com/user-attachments/assets/e0f25cda-95bf-4d4a-a002-b190d289fc6f" />
 
 
 ## Alert 3 True Positive after intense investogations following phishing emails and signs of exfiltration porcedures
+### Inital Alert: This alert triggered a high severity warning in the queue for a "Suspicious Parent-Child Relationship" on host win-3450. The system flags an anomalous execution pattern where powershell.exe spawns nslookup.exe.
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 16 13" src="https://github.com/user-attachments/assets/9c348f0d-d299-4617-98f4-0fa296d27ad2" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 16 28" src="https://github.com/user-attachments/assets/870a1553-d984-4f1b-8ded-da1e6debf8fe" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 16 32" src="https://github.com/user-attachments/assets/86022be0-c2e2-4efc-97ac-ebfe91c76e44" />
@@ -76,6 +85,9 @@ This project showcases my ability to detect, analyse, and document a live phishi
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 17 51" src="https://github.com/user-attachments/assets/5ee166bb-6816-468d-879f-b01cadbdcec4" />
 <img width="1470" height="707" alt="Screenshot 2026-06-24 at 20 18 24" src="https://github.com/user-attachments/assets/e934741d-dcc8-45a6-8878-53f3e5438d4d" />
 <img width="924" height="502" alt="Screenshot 2026-06-24 at 20 20 07" src="https://github.com/user-attachments/assets/00bbfbd4-86f1-42dc-b09e-807941a3860c" />
+
+### Log Analysis: A deep-dive query in SPLUNK Enterprise details a highly suspicious execution chain. The adversary is running obfuscated PowerShell scripts directly out of a localized folder (C:\Users\michael.ascot\downloads/exfiltration). SPLUNK log analysis shows nslookup.exe being abused to query an external domain (haz4rdw4re.io) confirming that the attacker is levergaing the utility as a Living-off-the-Land Binary (LoBin) to tunnel data out via DNS requests.
+
 <img width="1462" height="709" alt="Screenshot 2026-06-24 at 20 27 32" src="https://github.com/user-attachments/assets/b8ddaa22-0b3b-4546-ab68-63e51d71b8b9" />
 <img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 04 16" src="https://github.com/user-attachments/assets/3f24c63f-39df-496e-a715-e9e27aefc265" />
 <img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 04 54" src="https://github.com/user-attachments/assets/fb345fe5-30b0-415f-804e-1381a6d7527e" />
@@ -83,9 +95,14 @@ This project showcases my ability to detect, analyse, and document a live phishi
 <img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 05 11" src="https://github.com/user-attachments/assets/64f1d2c9-e08a-4f54-808d-3202bac2ff4a" />
 <img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 05 44" src="https://github.com/user-attachments/assets/b4a6abd2-790a-46b6-85f7-fee62ca25540" />
 <img width="1462" height="709" alt="Screenshot 2026-06-25 at 09 06 57" src="https://github.com/user-attachments/assets/8762b169-e3b8-487e-a855-65dfef80f8d5" />
+
+### Threat Intelligence: Public OSINT resources and technical documentation confirm that the domain infrastructure (h4rdw4re.io) is associated with active command and control (C2) frameworks designed explicity for bypassing firewalls through DNS-Based exfiltration.
+
 <img width="743" height="471" alt="Screenshot 2026-06-25 at 11 48 06" src="https://github.com/user-attachments/assets/10450fe6-575f-447f-aafe-8ec797aa1b6d" />
 <img width="743" height="433" alt="Screenshot 2026-06-25 at 11 48 18" src="https://github.com/user-attachments/assets/062221ec-4fd8-420d-905d-372e7220564e" />
 <img width="743" height="433" alt="Screenshot 2026-06-25 at 11 48 24" src="https://github.com/user-attachments/assets/a8259c70-bbdc-478a-91f8-b7fc81523682" />
+
+### Disposition and Resolution:Classified as a True Positive. The incident is immediately escalated to senior leadership with recommended containment procedures, including isolating host win-3450 from the network, serving the active C2 connection, and implementing tenant-wide firewall blocks on the malicious domain infrastructure.
 
 ### Result
 <img width="1445" height="433" alt="Screenshot 2026-06-25 at 11 48 43" src="https://github.com/user-attachments/assets/77882312-4997-4959-b9be-f400f5d1e161" />
